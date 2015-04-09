@@ -1,0 +1,17 @@
+version: 2.5.4-BZ
+apkFileName: Stk1.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 8
+sdkInfo:
+  minSdkVersion: '8'
+  targetSdkVersion: '10'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '19'
+  versionName: 4.4.2-5.4.3
+compressionType: false
+sharedLibrary: false

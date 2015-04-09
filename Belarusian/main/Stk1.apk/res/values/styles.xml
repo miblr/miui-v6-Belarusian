@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Stk" parent="@miui:style/Theme.Light.Settings">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="Theme.Stk.Activity" parent="@miui:style/Theme.Light">
+        <item name="miui:windowActionBar">true</item>
+    </style>
+    <style name="Theme.Stk.Dialog" parent="@miui:style/Theme.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="Theme.Stk.Dialog.MMIDialog" parent="@style/Theme.Stk.Dialog">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="Theme.Settings.NoActionBar" parent="@miui:style/Theme.Light.NoTitle">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+</resources>

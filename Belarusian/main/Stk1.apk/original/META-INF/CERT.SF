@@ -1,0 +1,58 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: NPUEuk3OOaDdbwJtxHXN0iYOPjM=
+
+Name: res/drawable-hdpi/ic_launcher_sim_toolkit.png
+SHA1-Digest: gV4u2G3uDNny5XSvcR40g2+QWGE=
+
+Name: res/drawable-hdpi/stk_application_icon.PNG
+SHA1-Digest: wdF1D4088wGIL/2bnaiHrwuz+Yg=
+
+Name: res/drawable-hdpi/ic_launcher_sim1_toolkit.png
+SHA1-Digest: 9+NZeNPP1WRx9LpGpjXiURCbSLU=
+
+Name: res/layout/stk_event_msg.xml
+SHA1-Digest: +eA06vNRQW8ZiF6yRPwJ+TnI27s=
+
+Name: res/drawable-hdpi/ic_launcher_sim4_toolkit.png
+SHA1-Digest: oFVtzNMDlo5cGGHIs2hnho0GCPQ=
+
+Name: resources.arsc
+SHA1-Digest: urLBH+SvQtHoOLnBloeScus6kWI=
+
+Name: classes.dex
+SHA1-Digest: sjytTSUv1Ky5K80ShDNto7z4kLE=
+
+Name: res/layout/stk_title.xml
+SHA1-Digest: pA9jdFCuz7mYGCcspN6rOIRgRMY=
+
+Name: res/xml/stk_settings.xml
+SHA1-Digest: 5hElcM/Zp5xYk/dmbJ37KixHD0k=
+
+Name: res/drawable-hdpi/ic_launcher_sim3_toolkit.png
+SHA1-Digest: pMzJdJNl85TY//EMTuBwfpATsVw=
+
+Name: AndroidManifest.xml
+SHA1-Digest: qV0j0NEwLTFuwj6pbh7aIAb9Qig=
+
+Name: res/layout/stk_menu_item2.xml
+SHA1-Digest: pQ22Agis+/GH5I8nsBmAXiHZ43Q=
+
+Name: res/layout/stk_input.xml
+SHA1-Digest: I/JCEk/7Qv7nGilZjUbzktlWerw=
+
+Name: res/layout/stk_tone_dialog.xml
+SHA1-Digest: GIIkqpYqDB8ezQQL3QBUtBSGZuo=
+
+Name: res/drawable-hdpi/ic_launcher_sim2_toolkit.png
+SHA1-Digest: Y+1m5nrw4v2dAqoGDwdqY12rWUA=
+
+Name: res/layout/stk_menu_list.xml
+SHA1-Digest: XdsC/+Jz3OSA24ux6uG4qk2odks=
+
+Name: res/layout/stk_menu_item.xml
+SHA1-Digest: Veuz3xksrtEEra/YdZW1ySCZBdQ=
+
+Name: res/layout/stk_msg_dialog.xml
+SHA1-Digest: He1m/1+V+C106g/AWxi94gs6u0I=
+

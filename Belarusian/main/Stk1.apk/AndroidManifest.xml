@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" android:sharedUserId="android.uid.phone" package="com.android.stk">
+    <original-package android:name="com.android.stk"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <application android:clearTaskOnLaunch="true" android:icon="@drawable/ic_launcher_sim1_toolkit" android:label="@string/app_name" android:name="com.android.stk.StkApp" android:process="com.android.phone" android:taskAffinity="android.task.stk" android:theme="@miui:style/Theme.Light">
+        <activity android:enabled="false" android:label="@string/appI_name" android:name="StkLauncherActivity" android:theme="@miui:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:excludeFromRecents="true" android:icon="@drawable/ic_launcher_sim2_toolkit" android:label="@string/appII_name" android:name=".StkLauncherActivity2" android:theme="@miui:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:excludeFromRecents="true" android:icon="@drawable/ic_launcher_sim2_toolkit" android:label="@string/appIII_name" android:name=".StkLauncherActivityIII" android:taskAffinity="android.task.stk2.StkLauncherActivityIII" android:theme="@miui:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:excludeFromRecents="true" android:icon="@drawable/ic_launcher_sim2_toolkit" android:label="@string/appIV_name" android:name=".StkLauncherActivityIV" android:taskAffinity="android.task.stk2.StkLauncherActivityIV" android:theme="@miui:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/appI_name" android:launchMode="singleTop" android:name="StkMenuActivity" android:taskAffinity="android.task.stk.StkLauncherActivity" android:theme="@style/Theme.Stk.Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/appII_name" android:launchMode="singleTop" android:name="StkMenuActivityII" android:taskAffinity="android.task.stk2.StkLauncherActivityII" android:theme="@style/Theme.Stk.Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/appIII_name" android:launchMode="singleTop" android:name="StkMenuActivityIII" android:taskAffinity="android.task.stk2.StkLauncherActivityIII" android:theme="@style/Theme.Stk.Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/appIV_name" android:launchMode="singleTop" android:name="StkMenuActivityIV" android:taskAffinity="android.task.stk2.StkLauncherActivityIV" android:theme="@style/Theme.Stk.Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:configChanges="locale|orientation|screenSize" android:excludeFromRecents="true" android:icon="@drawable/ic_launcher_sim2_toolkit" android:label="@string/appII_name" android:launchMode="singleTop" android:name="AliasStkMenuActivity" android:targetActivity="StkMenuActivity" android:taskAffinity="android.task.stk2.StkLauncherActivityII" android:theme="@style/Theme.Stk.Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="locale|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/appI_name" android:name="StkInputActivity" android:taskAffinity="android.task.stk.StkLauncherActivity" android:theme="@style/Theme.Stk.Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/appII_name" android:name="StkInputActivityII" android:taskAffinity="android.task.stk2.StkLauncherActivityII" android:theme="@style/Theme.Stk.Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/appIII_name" android:name="StkInputActivityIII" android:taskAffinity="android.task.stk2.StkLauncherActivityIV" android:theme="@style/Theme.Stk.Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/appIV_name" android:name="StkInputActivityIV" android:taskAffinity="android.task.stk2.StkLauncherActivityIV" android:theme="@style/Theme.Stk.Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|mcc|mnc|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection|fontScale" android:excludeFromRecents="true" android:launchMode="singleTop" android:name="StkDialogActivity" android:taskAffinity="android.task.stk2.StkLauncherActivity" android:theme="@style/Theme.Stk.Dialog"/>
+        <activity android:configChanges="locale|mcc|mnc|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection|fontScale" android:excludeFromRecents="true" android:launchMode="singleTop" android:name="StkDialogActivityII" android:taskAffinity="android.task.stk2.StkLauncherActivityII" android:theme="@style/Theme.Stk.Dialog"/>
+        <activity android:configChanges="locale|mcc|mnc|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection|fontScale" android:excludeFromRecents="true" android:launchMode="singleTop" android:name="StkDialogActivityIII" android:taskAffinity="android.task.stk2.StkLauncherActivityIII" android:theme="@style/Theme.Stk.Dialog"/>
+        <activity android:configChanges="locale|mcc|mnc|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection|fontScale" android:excludeFromRecents="true" android:launchMode="singleTop" android:name="StkDialogActivityIV" android:taskAffinity="android.task.stk2.StkLauncherActivityIV" android:theme="@style/Theme.Stk.Dialog"/>
+        <activity android:configChanges="locale|orientation|screenSize" android:excludeFromRecents="true" android:name="ToneDialog" android:theme="@style/Theme.Stk.Dialog"/>
+        <activity android:excludeFromRecents="true" android:name="NotificationAlertActivity" android:theme="@style/Theme.Stk.Dialog"/>
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name="StkSettings" android:theme="@style/Theme.Stk.Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEVELOPMENT_PREFERENCE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.android.stk.StkCmdReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.stk.command"/>
+                <action android:name="android.intent.action.stk.session_end"/>
+                <action android:name="android.intent.action.stk.command_2"/>
+                <action android:name="android.intent.action.stk.session_end_2"/>
+                <action android:name="android.intent.action.stk.command_3"/>
+                <action android:name="android.intent.action.stk.session_end_3"/>
+                <action android:name="android.intent.action.stk.command_4"/>
+                <action android:name="android.intent.action.stk.session_end_4"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.stk.EventReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.stk.USER_ACTIVITY"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.intent.action.stk.BROWSER_TERMINATION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.stk.BootCompletedReceiver" androidprv:primaryUserOnly="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+                <action android:name="android.intent.action.RADIO_TECHNOLOGY"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="StkAppService"/>
+    </application>
+</manifest>

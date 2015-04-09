@@ -1,0 +1,57 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+
+Name: res/drawable-hdpi/ic_launcher_sim_toolkit.png
+SHA1-Digest: LUQibAYuVqorhsDnxLTQFDTegbI=
+
+Name: res/drawable-hdpi/stk_application_icon.PNG
+SHA1-Digest: fx/Nn5WJ2zafQpSjDJ58rtBV3fw=
+
+Name: res/drawable-hdpi/ic_launcher_sim1_toolkit.png
+SHA1-Digest: d4/sJdCMOyCQYpKPyZHAci4Gth4=
+
+Name: res/layout/stk_event_msg.xml
+SHA1-Digest: yeoR0ztRIYjHGFDT2gjLy16B25E=
+
+Name: res/drawable-hdpi/ic_launcher_sim4_toolkit.png
+SHA1-Digest: sTpmAnFqL8Q8yUhls/B7MveJ218=
+
+Name: resources.arsc
+SHA1-Digest: LwD7zXDlb7jO3ivtv6p6Y4T4QRw=
+
+Name: classes.dex
+SHA1-Digest: 0gQJpT8uXnUH1toMzKsVKnULqik=
+
+Name: res/layout/stk_title.xml
+SHA1-Digest: ilx94evAZXGUON5hCJ5SGoEN1Kw=
+
+Name: res/xml/stk_settings.xml
+SHA1-Digest: rH4Ck3ZI4EFz7TWthIcM675gVtw=
+
+Name: res/drawable-hdpi/ic_launcher_sim3_toolkit.png
+SHA1-Digest: /K7tgns057uPOPcITkJOoTm/WzY=
+
+Name: AndroidManifest.xml
+SHA1-Digest: msvjq9cixHnA+u69tvWpCEu3OCc=
+
+Name: res/layout/stk_menu_item2.xml
+SHA1-Digest: c3OOrtrv+53DEtgFG9mDXsbdU7Y=
+
+Name: res/layout/stk_input.xml
+SHA1-Digest: 9K5GKcYq7++ITVsJzDldOw3uE2c=
+
+Name: res/layout/stk_tone_dialog.xml
+SHA1-Digest: TACWIg/ZrdmBWdimM8u4XVZbIJU=
+
+Name: res/drawable-hdpi/ic_launcher_sim2_toolkit.png
+SHA1-Digest: ORQEn9GHS5REnTM6e7awtx82kew=
+
+Name: res/layout/stk_menu_list.xml
+SHA1-Digest: 2lqhIsTguSploNIUo8J/iR9W3SE=
+
+Name: res/layout/stk_menu_item.xml
+SHA1-Digest: l8iLEJ1WaxIlBrfEyMi4vDFnd6c=
+
+Name: res/layout/stk_msg_dialog.xml
+SHA1-Digest: pgehjRCAi2eakYDPfsG+Wi91TD4=
+
