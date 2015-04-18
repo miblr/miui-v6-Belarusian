@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="backup_dialog_content_type">
+     <string-array name="app_type_desc">
+        <item>Дадзеныя</item>
+        <item>Праграма</item>
+        <item>Праграма і дадзеныя</item>
+     </string-array>
+     <string-array name="backup_dialog_content_type">
         <item>Параметры Wi-Fi</item>
         <item>Усе праграмы</item>
-    </string-array>
-    <string-array name="system_package_label">
-        <item>Браузер</item>
-        <item>Дазволы</item>
-        <item>Камера</item>
-        <item>Трафік</item>
-        <item>"Сервер надвор'я"</item>
-        <item>"Надвор'е"</item>
-    </string-array>
-    <string-array name="system_data_label">
+     </string-array>
+     <string-array name="cloud_account_data">
+        <item>Кантакты</item>
+        <item>Параметры Wi-Fi</item>
+        <item>Нататкі</item>
+     </string-array>
+     <string-array name="cloud_data_label">
+        <item>Кантакты</item>
+        <item>Журнал выклікаў</item>
+        <item>Паведамленні</item>
+        <item>Параметры Wi-Fi</item>
+        <item>Нататкі</item>
+     </string-array>
+     <string-array name="cloud_sim_data">
+        <item>Журнал выклікаў</item>
+        <item>Паведамленні</item>
+     </string-array>
+     <string-array name="font_size_scale">
+        <item>0.86</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.21</item>
+     </string-array>
+     <string-array name="st_antispam_mode_defined_state">
+        <item>@string/st_antispam_mode_smart_state</item>
+        <item>@string/st_antispam_mode_blacklist_state</item>
+        <item>@string/st_antispam_mode_only_contacts_state</item>
+        <item>@string/st_antispam_mode_only_whitelist_state</item>
+        <item>@string/st_antispam_mode_only_all_deny_state</item>
+     </string-array>
+     <string-array name="st_antispam_mode_defined_state_international">
+        <item>@string/st_antispam_mode_blacklist_state</item>
+        <item>@string/st_antispam_mode_only_contacts_state</item>
+        <item>@string/st_antispam_mode_only_whitelist_state</item>
+        <item>@string/st_antispam_mode_only_all_deny_state</item>
+     </string-array>
+     <string-array name="system_data_label">
         <item>Кантакты</item>
         <item>Журнал вызовов</item>
         <item>Паведамленні</item>
@@ -24,26 +56,13 @@
         <item>Нататкі</item>
         <item>Чорны спіс</item>
         <item>Акаунт</item>
-    </string-array>
-    <string-array name="app_type_desc">
-        <item>Дадзеныя</item>
-        <item>Праграма</item>
-        <item>Праграма і дадзеныя</item>
-    </string-array>
-    <string-array name="cloud_data_label">
-        <item>Кантакты</item>
-        <item>Журнал выклікаў</item>
-        <item>Паведамленні</item>
-        <item>Параметры Wi-Fi</item>
-        <item>Нататкі</item>
-    </string-array>
-    <string-array name="cloud_account_data">
-        <item>Кантакты</item>
-        <item>Параметры Wi-Fi</item>
-        <item>Нататкі</item>
-    </string-array>
-    <string-array name="cloud_sim_data">
-        <item>Журнал выклікаў</item>
-        <item>Паведамленні</item>
-    </string-array>
+     </string-array>
+     <string-array name="system_package_label">
+        <item>Браузер</item>
+        <item>Дазволы</item>
+        <item>Камера</item>
+        <item>Трафік</item>
+        <item>"Сервер надвор'я"</item>
+        <item>"Надвор'е"</item>
+     </string-array>
 </resources>

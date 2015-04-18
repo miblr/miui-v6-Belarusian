@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart2a -->
 <resources>
-    <string name="app_name">Антывірус Tencent</string>
-    <string name="hello_world">Прывітанне, свет!</string>
-    <string name="menu_settings">Налады</string>
+     <string name="app_name">Антывірус Tencent</string>
+     <string name="default_sdcard_volume_path" />
+     <string name="hello_world">Прывітанне, свет!</string>
+     <string name="menu_settings">Налады</string>
+     <string name="title_activity_main">MainActivity</string>
 </resources>

@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart2a -->
 <resources>
-    <string name="app_name">MusicFX</string>
-    <string name="no_effects">Эфекты не даступны</string>
-    <string name="main_toggle_effects_title">Аўдыёэфекты</string>
-    <string name="eq_dialog_title">Эквалайзер</string>
-    <string name="headset_plug">Падключыце навушнікі для гэтых эфектаў</string>
-    <string name="bass_boost_strength">Узмацненне нізкіх частот</string>
-    <string name="virtualizer_strength">Эфект 3D</string>
-    <string name="pr_title">Рэверберацыя:</string>
-    <string name="pr_summary">Дадатковыя эфекты рэверберацыі ў памяшканні</string>
-    <string name="pr_dialog_title">Шаблон рэвербератара</string>
-    <string name="setup">Налады</string>
-    <string name="ci_extreme">Узмацняльнік FX</string>
-    <string name="user">Карыстальнік</string>
-    <string name="picker_title">Кіраванне гукавымі эфектами</string>
+     <string name="app_name">MusicFX</string>
+     <string name="bass_boost_strength">Узмацненне нізкіх частот</string>
+     <string name="ci_extreme">Узмацняльнік FX</string>
+     <string name="eq_dialog_title">Эквалайзер</string>
+     <string name="eq_preset_classical">Classical</string>
+     <string name="eq_preset_dance">Dance</string>
+     <string name="eq_preset_flat">Flat</string>
+     <string name="eq_preset_folk">Folk</string>
+     <string name="eq_preset_heavymetal">Heavy Metal</string>
+     <string name="eq_preset_hiphop">Hip Hop</string>
+     <string name="eq_preset_jazz">Jazz</string>
+     <string name="eq_preset_normal">Normal</string>
+     <string name="eq_preset_pop">Pop</string>
+     <string name="eq_preset_rock">Rock</string>
+     <string name="headset_plug">Падключыце навушнікі для гэтых эфектаў</string>
+     <string name="main_toggle_effects_title">Аўдыёэфекты</string>
+     <string name="no_effects">Эфекты не даступны</string>
+     <string name="picker_title">Кіраванне гукавымі эфектами</string>
+     <string name="pr_dialog_title">Шаблон рэвербератара</string>
+     <string name="pr_summary">Дадатковыя эфекты рэверберацыі ў памяшканні</string>
+     <string name="pr_title">Рэверберацыя:</string>
+     <string name="presetreverb_name">Preset Reverb</string>
+     <string name="setup">Налады</string>
+     <string name="user">Карыстальнік</string>
+     <string name="virtualizer_strength">Эфект 3D</string>
 </resources>

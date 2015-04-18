@@ -1,24 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart2a -->
 <resources>
-    <string-array name="reminder_methods_labels">
-        <item>Апавяшчэнне</item>
-        <item>Email</item>
-        <item>SMS</item>
-        <item>Будзільнік</item>
-    </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>Не нагадваць</item>
-        <item>Па факце</item>
-        <item>За 5 хвілін</item>
-        <item>За 10 хвілін</item>
-        <item>За 15 хвілін</item>
-        <item>За 30 хвілін</item>
-        <item>За гадзіну</item>
-        <item>За дзень</item>
-        <item>За 2 дня</item>
-        <item>За тыдзень</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
+     <array name="account_birthday">
+        <item>#ffe99080</item>
+        <item>#b3d5a198</item>
+        <item>#fffcefef</item>
+        <item>#ffce7e6f</item>
+     </array>
+     <array name="account_preset1">
+        <item>#ffb69dd0</item>
+        <item>#b3bfa5db</item>
+        <item>#fff6f1fa</item>
+        <item>#ffa894be</item>
+     </array>
+     <array name="account_preset2">
+        <item>#fff0a16f</item>
+        <item>#b3d88c5b</item>
+        <item>#fffdf3ec</item>
+        <item>#ffe4884d</item>
+     </array>
+     <array name="account_preset3">
+        <item>#ff64bce1</item>
+        <item>#b33aadd2</item>
+        <item>#ffe2f5fb</item>
+        <item>#ff5bb5db</item>
+     </array>
+     <array name="account_preset4">
+        <item>#ff88c984</item>
+        <item>#b37dc07a</item>
+        <item>#fff1faf1</item>
+        <item>#ff91c58e</item>
+     </array>
+     <array name="account_xiaomi">
+        <item>#ff31aeaa</item>
+        <item>#b355c3bf</item>
+        <item>#ffe9f5f5</item>
+        <item>#ff349a97</item>
+     </array>
+     <string-array name="availability">
+        <item>Заняты</item>
+        <item>Даступны</item>
+        <item>Не вызначаны</item>
+     </string-array>
+     <integer-array name="availability_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+     </integer-array>
+     <string-array name="buttons_list">
+        <item>Дзень</item>
+        <item>Тыдзень</item>
+        <item>Месяц</item>
+        <item>Павестка дня</item>
+     </string-array>
+     <string-array name="change_response_labels">
+        <item>Толькі ў гэты раз</item>
+        <item>Усе мерапрыемствы ў серыі</item>
+     </string-array>
+     <string-array name="delete_repeating_labels">
+        <item>Толькі гэта мерапрыемства</item>
+        <item>Гэта і будучыя мерапрыемствы</item>
+        <item>Усе мерапрыемствы</item>
+     </string-array>
+     <string-array name="delete_repeating_labels_no_selected">
+        <item>Гэта і будучыя мерапрыемствы</item>
+        <item>Усе мерапрыемствы</item>
+     </string-array>
+     <integer-array name="delete_repeating_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+     </integer-array>
+     <integer-array name="online_reminder_minutes_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+     </integer-array>
+     <integer-array name="online_reminder_minutes_values_allday">
+        <item>0</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>10080</item>
+     </integer-array>
+     <string-array name="ordinal_labels">
+        <item>перш.</item>
+        <item>друг.</item>
+        <item>трэц.</item>
+        <item>чацверт.</item>
+        <item>апошн.</item>
+     </string-array>
+     <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Заўжды</item>
+        <item>У рэжыме \"Без гука\"</item>
+        <item>Ніколі</item>
+     </string-array>
+     <string-array name="prefValues_alerts_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+     </string-array>
+     <string-array name="preferences_default_reminder_labels">
         <item>Не нагадваць</item>
         <item>Па факце</item>
         <item>За 5 хвілін</item>
@@ -29,14 +117,159 @@
         <item>За дзень</item>
         <item>За 2 дні</item>
         <item>За тыдзень</item>
-    </string-array>
-    <string-array name="preferences_week_start_day_labels">
+     </string-array>
+     <string-array name="preferences_default_reminder_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+     </string-array>
+     <string-array name="preferences_week_start_day_labels">
         <item>Па рэгіёне</item>
         <item>Субота</item>
         <item>Нядзеля</item>
         <item>Панядзелак</item>
-    </string-array>
-    <string-array name="timezone_labels">
+     </string-array>
+     <string-array name="preferences_week_start_day_values">
+        <item>-1</item>
+        <item>7</item>
+        <item>1</item>
+        <item>2</item>
+     </string-array>
+     <string-array name="quick_response_defaults">
+        <item>Спазнюся на некалькі хвілін.</item>
+        <item>Буду там праз 10 хвілін.</item>
+        <item>Пачынайце без мяне.</item>
+        <item>Даруйце, я не магу гэта зрабіць. Трэба перагледзець расклад.</item>
+     </string-array>
+     <string-array name="reminder_methods_labels">
+        <item>Апавяшчэнне</item>
+        <item>Email</item>
+        <item>SMS</item>
+        <item>Будзільнік</item>
+     </string-array>
+     <integer-array name="reminder_methods_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+     </integer-array>
+     <string-array name="reminder_minutes_labels">
+        <item>Не нагадваць</item>
+        <item>Па факце</item>
+        <item>За 5 хвілін</item>
+        <item>За 10 хвілін</item>
+        <item>За 15 хвілін</item>
+        <item>За 30 хвілін</item>
+        <item>За гадзіну</item>
+        <item>За дзень</item>
+        <item>За 2 дня</item>
+        <item>За тыдзень</item>
+     </string-array>
+     <integer-array name="reminder_minutes_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+     </integer-array>
+     <string-array name="repeat_choose_day">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+        <item>6th</item>
+        <item>7th</item>
+        <item>8th</item>
+        <item>9th</item>
+        <item>10th</item>
+        <item>11th</item>
+        <item>12th</item>
+        <item>13th</item>
+        <item>14th</item>
+        <item>15th</item>
+        <item>16th</item>
+        <item>17th</item>
+        <item>18th</item>
+        <item>19th</item>
+        <item>20th</item>
+        <item>21st</item>
+        <item>22nd</item>
+        <item>23rd</item>
+        <item>24th</item>
+        <item>25th</item>
+        <item>26th</item>
+        <item>27th</item>
+        <item>28th</item>
+        <item>29th</item>
+        <item>30th</item>
+        <item>31st</item>
+     </string-array>
+     <string-array name="repeat_choose_end">
+        <item>Never</item>
+        <item>Time</item>
+        <item>Count</item>
+     </string-array>
+     <string-array name="repeat_choose_month">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+     </string-array>
+     <string-array name="repeat_choose_week_left">
+        <item>first</item>
+        <item>second</item>
+        <item>third</item>
+        <item>fourth</item>
+        <item>last</item>
+     </string-array>
+     <string-array name="repeat_choose_week_right">
+        <item>Mon - Fri</item>
+        <item>Weekend</item>
+        <item>Whole week</item>
+     </string-array>
+     <string-array name="repeat_choose_weekday">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thur</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+     </string-array>
+     <string-array name="repeat_frequency_spinner">
+        <item>day</item>
+        <item>week</item>
+        <item>month</item>
+        <item>year</item>
+     </string-array>
+     <string-array name="response_labels1">
+        <item>(няма адказу)</item>
+        <item>Так</item>
+        <item>Магчыма</item>
+        <item>Не</item>
+     </string-array>
+     <string-array name="timezone_labels">
         <item>Маршалавы а-вы</item>
         <item>Востраў Мідуэй</item>
         <item>Гаваі</item>
@@ -121,62 +354,100 @@
         <item>Окленд</item>
         <item>Фіджы</item>
         <item>Тонга</item>
-    </string-array>
-    <string-array name="availability">
-        <item>Заняты</item>
-        <item>Даступны</item>
-        <item>Не вызначаны</item>
-    </string-array>
-    <string-array name="visibility">
+     </string-array>
+     <string-array name="timezone_values">
+        <item>Pacific/Majuro</item>
+        <item>Pacific/Midway</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Tijuana</item>
+        <item>America/Phoenix</item>
+        <item>America/Chihuahua</item>
+        <item>America/Denver</item>
+        <item>America/Costa_Rica</item>
+        <item>America/Chicago</item>
+        <item>America/Mexico_City</item>
+        <item>America/Regina</item>
+        <item>America/Bogota</item>
+        <item>America/New_York</item>
+        <item>America/Caracas</item>
+        <item>America/Barbados</item>
+        <item>America/Halifax</item>
+        <item>America/Manaus</item>
+        <item>America/Santiago</item>
+        <item>America/St_Johns</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/Argentina/Buenos_Aires</item>
+        <item>America/Godthab</item>
+        <item>America/Montevideo</item>
+        <item>Atlantic/South_Georgia</item>
+        <item>Atlantic/Azores</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>Africa/Casablanca</item>
+        <item>Europe/London</item>
+        <item>Europe/Amsterdam</item>
+        <item>Europe/Belgrade</item>
+        <item>Europe/Brussels</item>
+        <item>Europe/Sarajevo</item>
+        <item>Africa/Windhoek</item>
+        <item>Africa/Brazzaville</item>
+        <item>Asia/Amman</item>
+        <item>Europe/Athens</item>
+        <item>Asia/Beirut</item>
+        <item>Africa/Cairo</item>
+        <item>Europe/Helsinki</item>
+        <item>Asia/Jerusalem</item>
+        <item>Europe/Minsk</item>
+        <item>Africa/Harare</item>
+        <item>Asia/Baghdad</item>
+        <item>Europe/Moscow</item>
+        <item>Asia/Kuwait</item>
+        <item>Africa/Nairobi</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Baku</item>
+        <item>Asia/Tbilisi</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Dubai</item>
+        <item>Asia/Kabul</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Oral</item>
+        <item>Asia/Yekaterinburg</item>
+        <item>Asia/Calcutta</item>
+        <item>Asia/Colombo</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Rangoon</item>
+        <item>Asia/Krasnoyarsk</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Irkutsk</item>
+        <item>Asia/Kuala_Lumpur</item>
+        <item>Australia/Perth</item>
+        <item>Asia/Taipei</item>
+        <item>Asia/Seoul</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Yakutsk</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Darwin</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Hobart</item>
+        <item>Australia/Sydney</item>
+        <item>Asia/Vladivostok</item>
+        <item>Pacific/Guam</item>
+        <item>Asia/Magadan</item>
+        <item>Pacific/Auckland</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Tongatapu</item>
+     </string-array>
+     <string-array name="visibility">
         <item>Па змаўчанні</item>
         <item>Закрытае</item>
         <item>Для ўсіх</item>
-    </string-array>
-    <string-array name="ordinal_labels">
-        <item>перш.</item>
-        <item>друг.</item>
-        <item>трэц.</item>
-        <item>чацверт.</item>
-        <item>апошн.</item>
-    </string-array>
-    <string-array name="response_labels1">
-        <item>(няма адказу)</item>
-        <item>Так</item>
-        <item>Магчыма</item>
-        <item>Не</item>
-    </string-array>
-    <string-array name="delete_repeating_labels">
-        <item>Толькі гэта мерапрыемства</item>
-        <item>Гэта і будучыя мерапрыемствы</item>
-        <item>Усе мерапрыемствы</item>
-    </string-array>
-    <string-array name="delete_repeating_labels_no_selected">
-        <item>Гэта і будучыя мерапрыемствы</item>
-        <item>Усе мерапрыемствы</item>
-    </string-array>
-    <string-array name="change_response_labels">
-        <item>Толькі ў гэты раз</item>
-        <item>Усе мерапрыемствы ў серыі</item>
-    </string-array>
-    <string-array name="buttons_list">
-        <item>Дзень</item>
-        <item>Тыдзень</item>
-        <item>Месяц</item>
-        <item>Павестка дня</item>
-    </string-array>
-    <string-array name="quick_response_defaults">
-        <item>Спазнюся на некалькі хвілін.</item>
-        <item>Буду там праз 10 хвілін.</item>
-        <item>Пачынайце без мяне.</item>
-        <item>Даруйце, я не магу гэта зрабіць. Трэба перагледзець расклад.</item>
-    </string-array>
-    <string-array name="prefEntries_alerts_vibrateWhen">
-        <item>Заўжды</item>
-        <item>У рэжыме \"Без гука\"</item>
-        <item>Ніколі</item>
-    </string-array>
-    <string-array name="widget_style_list">
+     </string-array>
+     <string-array name="widget_style_list">
         <item>Празрысты</item>
         <item>Белы</item>
-    </string-array>
+     </string-array>
 </resources>

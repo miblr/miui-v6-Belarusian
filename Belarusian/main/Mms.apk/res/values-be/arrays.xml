@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart2a -->
+<resources>
+     <string-array name="contact_entries">
+        <item>Імя</item>
+        <item>Нік</item>
+        <item>Тэлефон</item>
+        <item>Email</item>
+        <item>Арганізацыя</item>
+        <item>IM</item>
+        <item>SIP-тэлефон</item>
+        <item>Дзень народзінаў</item>
+        <item>Сайт</item>
+        <item>Адрас</item>
+        <item>Заўвагі</item>
+     </string-array>
+     <string-array name="contact_values">
+        <item>vnd.android.cursor.item/name</item>
+        <item>vnd.android.cursor.item/nickname</item>
+        <item>vnd.android.cursor.item/phone_v2</item>
+        <item>vnd.android.cursor.item/email_v2</item>
+        <item>vnd.android.cursor.item/organization</item>
+        <item>vnd.android.cursor.item/im</item>
+        <item>vnd.android.cursor.item/sip_address</item>
+        <item>vnd.android.cursor.item/contact_event</item>
+        <item>vnd.android.cursor.item/website</item>
+        <item>vnd.android.cursor.item/postal-address_v2</item>
+        <item>vnd.android.cursor.item/note</item>
+     </string-array>
+     <string-array name="default_smiley_names">
+        <item>Шчаслівы</item>
+        <item>Сумны</item>
+        <item>Падміргвае</item>
+        <item>Высалаплены язык</item>
+        <item>Здзіўлены</item>
+        <item>Пацалунак</item>
+        <item>Крычыць</item>
+        <item>Выдатна</item>
+        <item>Грошы ў роце</item>
+        <item>Нага ў роце</item>
+        <item>Разгублены</item>
+        <item>Анёл</item>
+        <item>Нерашучы</item>
+        <item>Крычыць</item>
+        <item>Рот закрыты</item>
+        <item>Смяецца</item>
+        <item>Засмучаны</item>
+        <item>Сэрца</item>
+        <item>Люты</item>
+        <item>Усьмешка</item>
+        <item>Твар нічога не выражае</item>
+     </string-array>
+     <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+     </string-array>
+     <string-array name="entries_date_type">
+        <item>Час атрымання</item>
+        <item>Час дасылання</item>
+     </string-array>
+     <string-array name="entries_mms_validity_period">
+        <item>Maximum</item>
+        <item>2 days</item>
+     </string-array>
+     <string-array name="entries_mms_validity_period_value">
+        <item>0</item>
+        <item>172800</item>
+     </string-array>
+     <string-array name="entries_sms_validity_period">
+        <item>Not set</item>
+        <item>1 hour</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>Maximum</item>
+     </string-array>
+     <string-array name="entries_sms_validity_period_value">
+        <item>-1</item>
+        <item>60</item>
+        <item>360</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>635040</item>
+     </string-array>
+     <string-array name="entryvalues_date_type">
+        <item>0</item>
+        <item>1</item>
+     </string-array>
+     <string-array name="prefEntries_ringtone_repeat">
+        <item>1 раз</item>
+        <item>2 разы</item>
+        <item>3 разы</item>
+        <item>5 разоў</item>
+        <item>10 разоў</item>
+     </string-array>
+     <string-array name="prefEntries_vibrateWhen">
+        <item>Заўжды</item>
+        <item>У рэжыме \"Без гуку\"</item>
+        <item>Ніколі</item>
+     </string-array>
+     <string-array name="prefValues_ringtone_repeat">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+     </string-array>
+     <string-array name="prefValues_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+     </string-array>
+     <string-array name="resent_via_entries_mms">
+        <item>Праз MMS</item>
+        <item>Праз воблачное паведамленне</item>
+     </string-array>
+     <string-array name="resent_via_entries_sms">
+        <item>Праз SMS</item>
+        <item>Праз облачное паведамленне</item>
+     </string-array>
+     <string-array name="select_dialog_items">
+        <item>1 сек.</item>
+        <item>2 сек.</item>
+        <item>3 сек.</item>
+        <item>4 сек.</item>
+        <item>5 сек.</item>
+        <item>6 сек.</item>
+        <item>7 сек.</item>
+        <item>8 сек.</item>
+        <item>9 сек.</item>
+        <item>10 сек.</item>
+        <item>Іншае</item>
+     </string-array>
+</resources>
