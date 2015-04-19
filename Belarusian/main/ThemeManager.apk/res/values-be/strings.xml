@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Parsed by jbart2a -->
 <resources>
-     <string name="account_id_not_login">Touch to sign in</string>
+     <string name="account_id_not_login">Націсніце каб увайсці</string>
      <string name="account_info">Мой акаўнт</string>
-     <string name="account_name_not_login">Sign in</string>
+     <string name="account_name_not_login">Увайсці</string>
      <string name="account_unactivated">Mi-акаўнт не актываваны</string>
      <string name="all_resources">Усе</string>
      <string name="all_ringtone_resource">Усе</string>
@@ -40,17 +39,17 @@
      <string name="download_preview_failed">Не атрымалася загрузіць эскіз</string>
      <string name="download_success">Загрузка скончана</string>
      <string name="fail_to_add_account">Не атрымалася дадаць акаўнт</string>
-     <string name="favorite_list">Favorites</string>
-     <string name="favorite_list_format">Favorite %1$s</string>
-     <string name="gift_anonymous">Anonymous</string>
+     <string name="favorite_list">Выбраныя</string>
+     <string name="favorite_list_format">Выбраных %1$s</string>
+     <string name="gift_anonymous">Ананімна</string>
      <string name="gift_count_format">%1$s+</string>
-     <string name="gift_operation_fail_dlg_abandon">Cancel</string>
-     <string name="gift_operation_fail_dlg_retry">Try again</string>
-     <string name="gift_operation_waiting">Just a sec…</string>
-     <string name="gift_owned">Purchased</string>
+     <string name="gift_operation_fail_dlg_abandon">Адмяніць</string>
+     <string name="gift_operation_fail_dlg_retry">Паспрабаваць яшчэ</string>
+     <string name="gift_operation_waiting">Пачакайце…</string>
+     <string name="gift_owned">Куплена</string>
      <string name="gift_present">Give</string>
-     <string name="gift_present_dlg_anonymous">Anonymous gift</string>
-     <string name="gift_present_dlg_input_hint">Mi Account ID/Phone</string>
+     <string name="gift_present_dlg_anonymous">Ананімны падарунак</string>
+     <string name="gift_present_dlg_input_hint">Mi акаўнт ID/Phone</string>
      <string name="gift_present_dlg_no_fee">"You won't be charged by your carrier for sending gifts"</string>
      <string name="gift_present_dlg_present_max_limit">"Theme can't be gifted more than %$1s times."</string>
      <string name="gift_present_dlg_share">Create code and share gift</string>
@@ -92,7 +91,7 @@
      <string name="online_search_hint">Увядзіце ключавыя словы</string>
      <string name="payment_info">Mi Credits</string>
      <string name="purchased_list">Набытыя тэмы</string>
-     <string name="purchased_list_format">%1$s purchased</string>
+     <string name="purchased_list_format">%1$s набыта</string>
      <string name="resource_account_abnormal_state">Памылка акаўнта. Паспрабуйце пазней.</string>
      <string name="resource_account_fail_to_add">Не атрымалася дадаць акаўнт</string>
      <string name="resource_account_login">Уваход</string>
@@ -122,10 +121,6 @@
      <string name="resource_comment_edit_comment_waiting">Праверка гісторыі…</string>
      <string name="resource_comment_edit_text_default">Напісаць водгук</string>
      <string name="resource_comment_edit_title">Водгук да тэмы: %1$s</string>
-     <!-- MNPS mismatch found! Translated: 0 Original: 1
-	%s: 0 Original: 1
-	%d: 0 Original: 0 -->
-     <!-- Original string: Comments (%1$s) -->
      <string name="resource_comment_entry_tips">Паказаць водгукі</string>
      <string name="resource_comment_expand_full_text">Разгарнуць▼</string>
      <string name="resource_comment_footer">Пустыя водгукі не адлюстроўваюцца</string>
@@ -138,9 +133,9 @@
      <string name="resource_comment_publish">" Даслаць "</string>
      <string name="resource_comment_rate">Рейтінг:</string>
      <string name="resource_comment_rating_star_tips">Адзнака:</string>
-     <string name="resource_comment_score_count">Оценок: %1$s</string>
-     <string name="resource_comment_sending">Отправка водгука…</string>
-     <string name="resource_comment_title">Водгукы \"%1$s\"</string>
+     <string name="resource_comment_score_count">Адзнак: %1$s</string>
+     <string name="resource_comment_sending">Адпраўка водгука…</string>
+     <string name="resource_comment_title">Водгукі \"%1$s\"</string>
      <string name="resource_comment_upload_data_invalid">Некарэктны водгук</string>
      <string name="resource_comment_upload_failed">Не атрымалася даслаць водгук</string>
      <string name="resource_comment_upload_hint">Водгук будзе апублікаваны пасля праверкі</string>
@@ -150,31 +145,31 @@
      <string name="resource_default">Мелодыя па змаўчанні</string>
      <string name="resource_default_name">Рэсурс</string>
      <string name="resource_delete">Выдаліць</string>
-     <string name="resource_delete_all">Выдаліць выбранные ресурсы (%1$d)?</string>
-     <string name="resource_delete_confirm">Выдаліць эті ресурсы?</string>
-     <string name="resource_delta_update_failed">Памылка обновленія. Повторная загрузка тэмы…</string>
-     <string name="resource_delta_update_successful">Обновленіе скончано</string>
-     <string name="resource_delta_update_total">Обновленій: %1$d (%2$s)</string>
-     <string name="resource_detail">Інформація</string>
-     <string name="resource_detail_comment_title">Водгукы</string>
-     <string name="resource_detail_jump_to_online_title">Онлайн</string>
-     <string name="resource_detail_jump_to_same_author_title">От автора</string>
-     <string name="resource_detail_recommend_desiner_other_themes">Другіе тэмы от автора \"%1$s\"</string>
+     <string name="resource_delete_all">Выдаліць выбранныя рэсурсы (%1$d)?</string>
+     <string name="resource_delete_confirm">Выдаліць гэтыя рэсурсы?</string>
+     <string name="resource_delta_update_failed">Памылка абнаўлення. Паўторная загрузка тэмы…</string>
+     <string name="resource_delta_update_successful">Абнаўленне скончана</string>
+     <string name="resource_delta_update_total">Абнаўленняў: %1$d (%2$s)</string>
+     <string name="resource_detail">Інформацыя</string>
+     <string name="resource_detail_comment_title">Водгукі</string>
+     <string name="resource_detail_jump_to_online_title">Анлайн</string>
+     <string name="resource_detail_jump_to_same_author_title">Ад аўтара</string>
+     <string name="resource_detail_recommend_desiner_other_themes">Іншыя тэмы ад аўтара \"%1$s\"</string>
      <string name="resource_detail_recommend_desiner_themes">Тэм: %1$s</string>
-     <string name="resource_detail_recommend_other_themes">Пользователям также понравілось</string>
-     <string name="resource_detail_update_log_title">Обновленія</string>
+     <string name="resource_detail_recommend_other_themes">Карыстальнікам таксама спадабалася</string>
+     <string name="resource_detail_update_log_title">Абнаўленні</string>
      <string name="resource_detail_vertical_divider">|</string>
-     <string name="resource_detail_window_title">%1$s: інформація</string>
-     <string name="resource_download">Скачать</string>
-     <string name="resource_download_notification_title_many">%1$s themes downloaded</string>
-     <string name="resource_download_notification_title_one">Theme downloaded</string>
-     <string name="resource_download_trial">Пробная версія</string>
-     <string name="resource_downloaded_title">Скачанные</string>
+     <string name="resource_detail_window_title">%1$s: інфармацыя</string>
+     <string name="resource_download">Спампаваць</string>
+     <string name="resource_download_notification_title_many">%1$s тэм загружана</string>
+     <string name="resource_download_notification_title_one">Тэма загружана</string>
+     <string name="resource_download_trial">Спробная версія</string>
+     <string name="resource_downloaded_title">Запампаваныя</string>
      <string name="resource_downloading">Загрузка…</string>
      <string name="resource_exchange">Выкупіць</string>
-     <string name="resource_exchange_confirm">Подтвердіць</string>
+     <string name="resource_exchange_confirm">Падцвердзіць</string>
      <string name="resource_exchange_empty_format">Введіте подарочный код</string>
-     <string name="resource_exchange_has_bought">Вы уже купілі эту тэму</string>
+     <string name="resource_exchange_has_bought">Вы уже купілі гэтую тэму</string>
      <string name="resource_exchange_has_expired">Срок действія кода істек</string>
      <string name="resource_exchange_has_used">Введенный код уже іспользуется</string>
      <string name="resource_exchange_hint">Введіте подарочный код</string>
